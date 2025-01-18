@@ -1,0 +1,6 @@
+server:
+  port: 8761                            # 8761 is the default port of the eureka-server
+eureka:
+    client:
+          fetch-registry: false         #For not to search the co-discovery services.
+          register-with-eureka: false   #To not to register the this service it-self
